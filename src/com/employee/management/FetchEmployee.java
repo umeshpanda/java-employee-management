@@ -78,7 +78,7 @@ public class FetchEmployee extends JFrame {
 		        PreparedStatement ps = null;
 		        ResultSet rs = null;
 		        String dpath = "com.mysql.cj.jdbc.Driver";
-		        String url = "jdbc:mysql://localhost:3306/employee?user=root&password=umesh";
+		        String url = "jdbc:mysql://localhost:3306/employee?user=user&password=passw0ord";
 		        String sql = "select * from employee where id = ?";
 
 		        try {
