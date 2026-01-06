@@ -106,7 +106,7 @@ public class AddEmployee extends JFrame {
 				Connection con = null;
 				PreparedStatement ps = null;
 				String dpath = "com.mysql.cj.jdbc.Driver";
-				String url = "jdbc:mysql://localhost:3306/employee ? user = root & password = umesh";
+				String url = "jdbc:mysql://localhost:3306/employee ? user = user & password = password";
 				String sql = "insert into employee values(?, ?, ?)";
 				int nora = -1;
 				
